@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class RecommendedAccessoriesModule {
-@FindBy(xpath="//a[@id=\"nav-cart\"]")	
+@FindBy(xpath="//button[@id=\"a-autoid-1-announce\"]")	
 private WebElement cartButton;
 
 public RecommendedAccessoriesModule (WebDriver driver)

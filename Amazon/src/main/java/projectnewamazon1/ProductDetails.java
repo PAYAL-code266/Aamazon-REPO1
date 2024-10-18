@@ -7,9 +7,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ProductDetails {
-	@FindBy (xpath="")
+	@FindBy (xpath="//div[@cel_widget_id=\"MAIN-SEARCH_RESULTS-3\"]//h2//span")
 private WebElement productName;
-	@FindBy (xpath="")
+	@FindBy (xpath="//div[@cel_widget_id=\"MAIN-SEARCH_RESULTS-5\"]//div[@data-cy=\"price-recipe\"]//span[@class=\"a-price-whole\"]")
 private WebElement productPrice;
 	@FindBy (xpath="//button[@id='a-autoid-5-announce']")
 private WebElement addToCart;

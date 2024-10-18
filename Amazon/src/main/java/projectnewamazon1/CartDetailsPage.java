@@ -12,9 +12,9 @@ public class CartDetailsPage {
 
 	
 	//private WebElement firstProductName;
-	@FindBy (xpath="//span[text()='Samsung 108 cm (43 inches) D Series Crystal 4K Vivid Ultra HD…']")
+	@FindBy (xpath="(//div[@id=\"sc-active-cart\"]//h4//span)[3]")
 	private WebElement firstProductName;
-	
+	@FindBy (xpath="//div[@id=\"sc-active-cart\"]//div[@class=\"a-section a-spacing-mini\"]//span")
 	 private WebElement firstProductPrice;
 	
 	
